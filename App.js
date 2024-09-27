@@ -40,7 +40,7 @@ export default function App() {
           <Button title="Log to Console" onPress={() => console.log(inputText)} />
           <Button
             title="Warn to Console"
-            onPress={() => console.warn(inputText)}
+            onPress={() => console.warn(inputText)} //testing gitHub changes
           />
       </View>
     </View>
